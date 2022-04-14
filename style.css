@@ -1,0 +1,243 @@
+body{
+  height: 2000px;
+  text-align: center;
+  background-color: black;
+}
+  
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+}
+
+a:hover {
+  color: rgb(255, 0, 212);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+#expandable {
+  width: 100%; 
+  text-align: center;
+  position: fixed;
+  font-size: 160px;
+  font-family: 'Azeret Mono';
+  top: 25%;
+  transform-origin: center center;
+  background-size: cover;
+  background: url(assets/vb.gif) 0 0 ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+
+#vb{
+  font-size: 160px;
+}
+
+
+
+.textbox{
+  width: 100%;
+  margin: auto;
+  font-size: 260px;
+  font-family: 'Azeret Mono';
+}
+.t1{
+  /* iam */
+  font-size: 80px;
+  padding: 180px 0px;
+  color: white;
+}
+.t2{
+  /* arrow */
+  font-size: 60px;
+  padding: 100px 0px;
+  color: white;
+}
+
+.t3{
+  /* hello friend*/
+  color: white;
+  font-size: 140px;
+  padding: 20px auto;
+  margin-top: 300px;
+  font-family: 'Fira Code';
+}
+
+.t4{
+  /* nice to meet you */
+  font-family: 'Fira Code';
+  font-size: 100px;
+  color: white;
+  margin-top: 700px;
+}
+
+
+.t5{
+  /* about me */
+  margin-top: 600px;
+  font-size: 40px;
+  color: white;
+  transform-origin: center center;
+  position: relative;
+  width: fit-content;
+}
+#profile{
+  width: 25%;
+  display: inline-block;
+  float: left;
+  margin-top: 20px;
+}
+.t6{
+  /* about */
+  font-family: 'Fira Code';
+  font-size: 30px;
+  color: white;
+  padding: 20px 0px;
+  margin-top: 60px;
+}
+
+#about{
+  text-align: left;
+  display: inline-block;
+  width: 70%;
+}
+
+.t7{
+   /* my skills */
+   margin-top: 300px;
+   font-size: 40px;
+   color: white;
+   transform-origin: center center;
+   position: relative;
+   width: fit-content;
+}
+
+.t8{
+  /* show u some works */
+  font-family: 'Fira Code';
+  font-size: 60px;
+  color: white;
+  margin-top: 600px;
+  margin-bottom: 600px;
+}
+
+.workGif{
+  width: 40%;
+  display: inline-block;
+  float: left;
+  border-radius: 25px;
+}
+#workAbout{
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+  font-size: 20px;
+  padding: 100px 0px 100px 0px;
+}
+.work{
+  /* about */
+  font-family: 'Fira Code';
+  color: white;
+  margin-top: 60px;
+}
+.textl{
+  text-align: right;
+}
+.gifr{
+  float: right;
+}
+
+
+
+
+
+.contact{
+  height: 10%;
+  text-align: center;
+  padding: auto;
+  font-family: 'Azeret Mono';
+  font-size: 20px;
+  color: white;
+}
+
+.t9{
+  margin-top: 600px;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+ul {
+  margin:0;
+  padding:0;
+  display:inline-flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  position: relative;
+  width:60px;
+  height:60px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+
+ul li a .fab {
+  width: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+ul li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}
+
+ul li:nth-child(4) a:hover .fab {
+  color: #007bb6;
+}
+
+ul li:nth-child(5) a:hover .fab {
+  color: #e4405f;
+}
