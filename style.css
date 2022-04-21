@@ -1,9 +1,13 @@
-body{
-  height: 2000px;
+html,body{
   text-align: center;
   background-color: black;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: overlay;
 }
-  
+
+
 
 
 a:link {
@@ -279,6 +283,9 @@ ul li:nth-child(5) a:hover .fab {
     width: 100%;
     text-align: center;
   }
+  .textbox{
+    width: 100vw;
+  }
   .t8{
     font-size: 10vw;
   }
@@ -295,6 +302,6 @@ ul li:nth-child(5) a:hover .fab {
     float: none;
   }
   #expandable{
-    top: 50%;
+    top: 30%;
   }
 }
