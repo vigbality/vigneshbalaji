@@ -4,7 +4,7 @@ html,body{
   margin: 0;
   padding: 0;
   border: 0;
-  overflow: overlay;
+  overflow-y: overlay;
 }
 
 
@@ -260,7 +260,7 @@ ul li:nth-child(5) a:hover .fab {
   }
   .t3{
     /* hello friend*/
-    font-size: 9vw;
+    font-size: 7vw;
     padding: 20px 20px;
   }
   .t4{
@@ -302,6 +302,6 @@ ul li:nth-child(5) a:hover .fab {
     float: none;
   }
   #expandable{
-    top: 30%;
+    top: 26%;
   }
 }
