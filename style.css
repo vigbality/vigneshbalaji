@@ -35,12 +35,11 @@ a:hover {
   background: url(assets/vb.gif) 0 0 ;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  white-space: nowrap;
-  
 }
 
 #vb{
-  font-size: 160px;
+  font-size: 10vw;
+  white-space: nowrap;
 }
 
 
@@ -53,13 +52,13 @@ a:hover {
 }
 .t1{
   /* iam */
-  font-size: 80px;
+  font-size: 3.5vw;
   padding: 180px 0px;
   color: white;
 }
 .t2{
   /* arrow */
-  font-size: 60px;
+  font-size: 4vw;
   padding: 100px 0px;
   color: white;
 }
@@ -67,7 +66,7 @@ a:hover {
 .t3{
   /* hello friend*/
   color: white;
-  font-size: 140px;
+  font-size: 8.5vw;
   padding: 20px auto;
   margin-top: 300px;
   font-family: 'Fira Code';
@@ -247,15 +246,52 @@ ul li:nth-child(5) a:hover .fab {
 
 
 @media only screen and (max-width: 900px){
-  #expandable {
-    font-size: 40px;
+  .t1{
+    /* iam */
+    font-size: 7vw;
+  }
+  .t2{
+    /* arrow */
+    font-size: 7vw;
   }
   .t3{
     /* hello friend*/
-    color: white;
-    font-size: 30px;
-    padding: 20px auto;
-    margin-top: 300px;
-    font-family: 'Fira Code';
+    font-size: 9vw;
+    padding: 20px 20px;
+  }
+  .t4{
+    /* nice to meet you */
+    font-size: 16vw;
+  }
+  .t5{
+    font-size: 5vw;
+  }
+  .t7{
+    font-size: 5vw;
+  }
+  #profile{
+    width: 100%;
+    display: block;
+  }
+  #about{
+    font-size: 5vw;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .t8{
+    font-size: 10vw;
+  }
+  #workAbout{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .workGif{
+    width: 80%;
+    float: none;
+  }
+  .gifr{
+    float: none;
   }
 }
