@@ -35,6 +35,7 @@ a:hover {
   background: url(assets/vb.gif) 0 0 ;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  white-space: nowrap;
   
 }
 
