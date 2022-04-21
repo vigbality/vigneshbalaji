@@ -31,7 +31,6 @@ $(function() {
       if(mass>16 && mass<21){
         var heading = 1+0.0008*$(this).scrollTop();
         $('.t7').css('transform', 'scale(' + heading + ')');
-        console.log("visi");
       }
       else if(mass>22){
         $('.t7').css('transform', 'scale(' + 1 + ')');
