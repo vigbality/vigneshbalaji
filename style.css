@@ -294,4 +294,7 @@ ul li:nth-child(5) a:hover .fab {
   .gifr{
     float: none;
   }
+  #expandable{
+    top: 50%;
+  }
 }
