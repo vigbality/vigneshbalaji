@@ -256,6 +256,7 @@ ul li:nth-child(5) a:hover .fab {
   .t1{
     /* iam */
     font-size: 7vw;
+    padding: 100px 0px;
   }
   .t2{
     /* arrow */
@@ -305,6 +306,6 @@ ul li:nth-child(5) a:hover .fab {
     float: none;
   }
   #expandable{
-    top: 26%;
+    top: 25%;
   }
 }
