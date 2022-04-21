@@ -4,7 +4,8 @@ html,body{
   padding: 0;
   border: 0;
   overflow-y: overlay;
-  overflow-x: hidden;   
+  overflow-x: hidden;  
+  background-color: black; 
 }
 
 
