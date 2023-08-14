@@ -3,9 +3,14 @@ html,body{
   margin: 0;
   padding: 0;
   border: 0;
-  overflow-y: overlay;
+  overflow-y: scroll;
   overflow-x: hidden;  
-  background-color: black; 
+  background-color: black;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 
@@ -119,7 +124,7 @@ a:hover {
 .t7{
    /* my skills */
    margin-top: 300px;
-   font-size: 40px;
+   font-size: 30px;
    color: white;
    transform-origin: center center;
    position: relative;
@@ -248,7 +253,9 @@ ul li:nth-child(4) a:hover .fab {
 ul li:nth-child(5) a:hover .fab {
   color: #e4405f;
 }
-
+.color-text{
+  color: #00aced;
+}
 
 
 
@@ -309,3 +316,4 @@ ul li:nth-child(5) a:hover .fab {
     top: 30%;
   }
 }
+
