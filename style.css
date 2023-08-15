@@ -134,10 +134,15 @@ a:hover {
 .t8{
   /* show u some works */
   font-family: 'Fira Code';
-  font-size: 60px;
+  font-size: 80px;
   color: white;
   margin-top: 600px;
   margin-bottom: 600px;
+}
+
+.small-txt{
+  font-size: 1px;
+  margin-top: -250px;
 }
 
 .workGif{
@@ -158,8 +163,15 @@ a:hover {
   /* about */
   font-family: 'Fira Code';
   color: white;
-  margin-top: 60px;
+  margin-top: 250px;
 }
+
+.profile-section{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  width: 200px;
+}
+
 .textl{
   text-align: right;
 }
